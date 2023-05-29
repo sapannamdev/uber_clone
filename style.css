@@ -1,0 +1,1003 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid yellow; */
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* nav-bar start */
+
+nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+
+}
+nav span{
+    display: flex;
+    justify-content: space-between;
+    color: #ffff;
+
+}
+nav .title{
+    width: 350px;
+
+    
+}
+nav .title h4{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+nav .title button{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /* width: 18px; */
+    height: 25px;
+    border: none;
+    background-color: transparent;
+    color: #ffff;
+}
+#company{
+    width: 100px;
+}
+#safety, #help{
+    width: 70px;
+}
+nav .title button:hover{
+    border: 1px solid gray;
+    border-radius: 25px;
+    background-color: gray;
+}
+nav .login{
+    width: 350px;
+    margin: 10px 50px;
+}
+.login .responsive_icon{
+    display: none;
+    font-size: 12px;
+}
+.langauge_btn button{
+    width: 60px;
+    height: 30px;
+    background-color: transparent;
+    color: #ffff;
+    border: none;
+    font-size: 12px;
+}
+.product_btn button{
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    background-color: transparent;
+    color: #ffff;
+    border: none;
+}
+.login_btn button{
+    width: 70px;
+    height: 30px;
+    font-size: 12px;
+    background-color: transparent;
+    color: #ffff;
+    border: none;
+}
+
+.signup_btn button{
+    width: 65px;
+    height: 30px;
+    font-size: 12px;
+    background-color: #ffff;
+    border: none;
+    border-radius: 25px;
+}
+.langauge_btn button:hover{
+    border: 1px solid gray;
+    background-color: gray;
+    border-radius: 25px;
+}
+.product_btn button:hover{
+    border: 1px solid gray;
+    background-color: gray;
+    border-radius: 25px;
+}
+.login_btn button:hover{
+    border: 1px solid gray;
+    background-color: gray;
+    border-radius: 15px;
+}
+.signup_btn button:hover{
+    background-color: gray;
+}
+/* navbar-end */
+
+/* hero_section start */
+
+.hero_section{
+    display: flex;
+    background-color: #ffff;
+    /* align-items: center; */
+    /* justify-content: center; */
+    height: 420px;
+}
+.hero_section .txt_section{
+    width: 45%;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    
+}
+
+.hero_section .txt_section h2{
+    font-size: 48px;
+    color: #333333;
+    padding-bottom: 20px;
+    padding-top: 50px;
+
+}
+.hero_section .txt_section h4{
+    font-size: 16px;
+    color: #333333;
+    padding-bottom: 20px;
+
+}
+.hero_section .txt_section p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+.hero_section .txt_section ul li{
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    /* padding-bottom: 20px; */
+
+}
+.hero_section .txt_section button{
+    width: 140px;
+    height: 40px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color:#ffff;
+    font-weight: 500;
+}
+
+.hero_section .img_section {
+    width: 55%;
+    
+}
+.hero_section .img_section img{
+   height: 320px;
+    margin-top: 60px;
+    text-align: center;
+    margin-left: 100px;
+    
+}
+
+/* hero_section  end */
+
+/* backgroung_image section start */
+
+.bg_section{
+    width: 100%;
+    background-color: black;
+}
+.bg_section .bg_image_section img{
+   height: 650px;
+   width: 100%;
+}
+
+.bg_text_section{
+    color: #ffff;
+    text-align: center;
+
+}
+.bg_text_section h2{
+    padding-top: 50px;
+    font-size: 38px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.bg_text_section p{
+    font-size: 16px;
+    padding-left: 320px;
+    padding-right: 320px;
+}
+.bg_text_section button{
+    width: 120px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background: #ffff;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+}
+/* bg_section end */
+
+/* how to ride section start */
+.how_to_ride{
+    width: 100%;
+    background-color: #ffff;
+    padding-top: 70px;
+    padding-left: 70px;
+    padding-bottom: 50px;
+}
+
+.how_to_ride h3{
+    font-size: 28px;
+    font-family: 700;
+    color: #333333;
+    padding-bottom: 25px;
+}
+
+.how_to_ride .box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 90px;
+}
+
+.how_to_ride .box .request_box{
+    width: 30%;
+}
+.how_to_ride .box .request_box h5{
+    font-size: 16px;
+    color: #333333;
+    
+}
+.how_to_ride .box .request_box p{
+    font-size: 14px;
+    color: #333333;
+    padding-top: 20px;
+    
+}
+
+.how_to_ride .box .ride_box{
+    width: 30%;
+}
+.how_to_ride .box .ride_box h5{
+    font-size: 16px;
+    color: #333333;
+    
+}
+.how_to_ride .box .ride_box p{
+    font-size: 14px;
+    color: #333333;
+    padding-top: 20px;
+    
+}
+.how_to_ride .box .hop_out_box{
+    width: 30%;
+}
+.how_to_ride .box .hop_out_box h5{
+    font-size: 16px;
+    color: #333333;
+    
+}
+.how_to_ride .box .hop_out_box p{
+    font-size: 14px;
+    color: #333333;
+    padding-top: 20px;
+    
+}
+/* how to ride section end */
+
+/* how texi work section start */
+.texi_work{
+    background-color: black;
+    color: #ffff;
+}
+.texi_work h3{
+    padding-top: 70px;
+    padding-left: 70px;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.texi_work ul {
+    width: 60%;
+    margin-left: 80px;
+    margin-bottom: 30px;
+ 
+}
+
+.texi_work ul li{
+    list-style-type: square;
+    font-size: 20px;
+    
+}
+
+.texi_work ul li h5{
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.texi_work ul li p{
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    
+}
+.texi_work ul li p .bottom{
+    padding-bottom: 40px;
+}
+/* how texi work section end */
+
+/* Price_estimator section start */
+.price_section{
+    width: 100%;
+    background-color: #ffff;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* margin: 60px 70px; */
+}
+
+.price_section .booking_section{
+    width: 25%;
+    /* padding-left: 70px; */
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+
+.price_section .booking_section h2{
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.price_section .booking_section input{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #f6f6f6;
+    border: none;
+    
+}
+.price_section .booking_section .booking_btn button{
+    width: 300px;
+    height: 40px;
+    /* margin-top: 20px; */
+    border: none;
+    border-radius: 5px;
+}
+.dark_btn button{
+    background-color: black;
+    color:#ffff;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.light_btn button{
+    color: black;
+    background-color: #f6f6f6;
+    font-size: 14px;
+    font-weight: 500;
+}
+.price_section .booking_section p{
+    font-size: 12px;
+    padding-top: 30px;
+}
+
+.price_section .map_section{
+    width: 60%;
+    height: 400px;
+    background-image: url(images/c521a382f82aed5f.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+
+/* Price_estimator section end */
+
+
+/* Why_texi section start */
+
+.why_texi{
+    background-color: black;
+}
+.why_texi h3{
+    color: #ffff;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+
+}
+
+.box_texi{
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: centre;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.box_texi h5{
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.box_texi  p{
+    color: #ffff;
+    font-size: 14px;
+}
+.box_choice{
+    margin-left: 70px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+.box_convenience{
+    width: 25%;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+.box_price{
+    width: 30%;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+.box_professionalism{
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+/* Why_texi section end */
+
+
+/* want_section start */
+.want_section{
+    background-color: #ffff;
+}
+.want_section h3{
+    padding-left: 70px;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    font-size: 32px;
+    font-weight: 800;
+}
+.want_section button{
+    margin-left: 70px;
+    margin-bottom: 50px;
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: transparent;
+    font-size: 14px;
+
+}
+.want_section button:hover{
+    border-bottom: 1px solid black;
+}
+
+/* want_section end */
+
+/* more_section start */
+.more_section{
+    background-color: #ffff;
+    color: black;
+}
+.more_section h3{
+    padding-left: 70px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 26px;
+    
+}
+.more_section p{
+    padding-left: 70px;
+    font-size: 14px;
+}
+.box_span{
+    border-bottom: 3px solid gray;
+    width: 88%;
+    margin: 0px auto;
+    
+}
+.more_section span {
+    display: flex;
+
+}
+.more_section span p{
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 0%;
+    font-size: 12px;
+    
+
+}
+
+.box_feature{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    margin-right: 70px;
+    
+}
+.box_feature .box_share{
+    margin-left: 70px;
+    width: 25%;
+}
+.box_feature .box_green{
+    margin-left: 70px;
+    width: 25%;
+}
+.box_feature .box_rent{
+    margin-left: 70px;
+    width: 25%;
+}
+.box_feature  h5{
+    font-size: 18px;
+    color: #333333;
+    padding-bottom: 10px;
+}
+.box_feature h6{
+    font-size: 14px;
+    font-weight: 400;
+}
+.box_feature p{
+    padding-top: 20px;
+    padding-left: 0px;
+    border-bottom: 1px solid gray;
+    width: 80%;
+}
+.box_feature p:hover{
+    border-bottom: 1px solid black;
+}
+
+.box_feature img{
+    width: 280px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+/* more_section end */
+
+/* information section start */
+.info{
+    width: 100%;
+    background-color: #ffff;
+}
+.info p{
+    /* text-align: center; */
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 130px;
+    font-size: 12px;
+    font-style: 400;
+    padding-bottom: 30px;
+}
+
+
+
+/* footer section start */
+
+footer{
+    background-color: #000;
+
+}
+
+footer p{
+    color: #ffff;
+    font-weight: 200;
+    font-size: 12px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+ .footer_p_1{
+    
+    padding-top: 50px;
+}
+
+
+footer h3{
+    padding-left: 70px;
+    padding-top: 150px;
+    padding-bottom: 30px;
+    color: #ffff;
+    font-size: 24px;
+}
+.box_footer{
+    width: 10%;
+    margin-left: 70px;
+    border: none;
+}
+footer h5{
+    color: #ffff;
+    font-size: 14px;
+    font-weight: lighter;
+    padding-bottom: 30px;
+}
+
+footer h5:hover{
+    border-bottom: 1px solid gray;
+      
+}
+
+.list {
+    color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 70px;
+   
+}
+.list ul{
+    font-size: 14px;
+}
+
+.list  li{
+    list-style: none;
+    font-size: 12px;
+    padding-top: 15px;
+}
+
+.icon_location{
+    color: #ffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon_location .txt span{
+    display: flex;
+    /* justify-content: center; */
+
+}
+
+
+.social_icon{
+    margin-left: 70px;
+}
+.social_icon span i{
+    margin-right:35px;
+}
+/* footer section end */
+
+
+/* responsive */
+
+@media (max-width:768px) {
+
+    /* navbar */
+
+    nav .title button{
+        display: none;
+    }
+    nav .title h4{
+        margin-left: 25px;
+    }
+   nav .login{
+    margin-right: 25px;
+        
+    }
+   .login .langauge_btn button{
+        display: none;
+    }
+    .login .product_btn button{
+        display: none;
+    }
+    .login .responsive_icon{
+        display: block;
+        margin-top: 5px;
+        
+    }
+
+    /* hero_section responsive start */
+    .hero_section{
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+       align-items: center;
+       justify-content: center;
+    }
+    .hero_section .img_section{
+        width: 100%;
+       
+    }
+    .hero_section .img_section img{
+        /* text-align: center; */
+        height: 290px;
+        margin: auto;
+        padding-right: 20px;
+        padding-left: 15px;
+    }
+    .hero_section .txt_section{
+        width: 100%;
+        padding-left: 20px;
+        padding-top: 0px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+
+    }
+    .hero_section .txt_section h2{
+        font-size: 28px;
+        padding-top: 0px;
+    }
+    /* hero_section responsive end */
+
+
+    /* bg_section start */
+    .bg_section .bg_image_section img{
+        height: 450px;
+    }
+    .bg_text_section h2{
+        font-size: 28px;
+        padding-top: 15px;
+    }
+    .bg_text_section p{
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 14px;
+    }
+    .bg_text_section button{
+        margin-bottom: 30px;
+    }
+    /* bg_section end */
+
+   /* how to ride section start */
+
+   .how_to_ride{
+    width: 100%;
+    background-color: #ffff;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+.how_to_ride .box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-right: 20px;
+}
+.how_to_ride .box .request_box{
+    width: 100%;
+    padding-bottom: 30px;
+}
+.how_to_ride .box .ride_box{
+    width: 100%;
+    padding-bottom: 30px;
+}
+.how_to_ride .box .hop_out_box{
+    width: 100%;
+}
+
+/* how to ride section end */
+
+/* how taxi work section start*/
+.texi_work h3{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.texi_work ul{
+    width: 90%;
+    margin-left: 20px;
+}
+.texi_work ul li{
+    margin-left: 20px;
+}
+.texi_work ul li h5{
+    padding-left: 0px;
+    font-size: 16px;
+}
+.texi_work ul li p{
+    /* font-size: 12px; */
+    padding-left: 0px;
+}
+/* how taxi work section end */
+
+/* Price_estimator section start */
+
+.price_section .map_section{
+    display: none;
+}
+.price_section{
+    margin-top: 20px;
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+}
+.price_section .booking_section{
+    width: 100%;
+    margin-left: 20px;
+}
+.price_section .booking_section h2{
+    padding-bottom: 10px;
+}
+.price_section .booking_section input{
+    width: 440px;
+
+}
+.price_section .booking_section .booking_btn button{
+    width: 440px;
+}
+
+/* Price_estimator section end */
+
+/* why_texi_section start */
+.why_texi h3{
+    padding-top: 30px;
+}
+.box_texi{
+    display: flex;
+    flex-direction: column;
+}
+.box_choice{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+.box_convenience{
+    width: 80%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.box_price{
+    width: 90%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.box_professionalism{
+    width: 90%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.box_safety{
+    width: 90%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+/* why_texi_section end */
+
+
+/* want_section start */
+.want_section h3{
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    font-size: 28px;
+}
+.want_section button{
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+/* want_section end */
+
+/* more_section start */
+
+.more_section h3{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 22px;
+    
+}
+.more_section p{
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.box_span{
+    width: 80%;
+    margin: 0px 20px;
+}
+.box_feature{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 15px;
+    
+}
+.box_feature .box_share{
+    margin-left: 20px;
+    width: 100%;
+}
+.box_feature .box_green{
+    margin-left: 20px;
+    width:100%;
+}
+.box_feature .box_rent{
+    margin-left: 20px;
+    width: 100%;
+}
+.box_feature p{
+    padding-left: 0px;
+    width: 55%;
+}
+.box_feature img{
+    text-align: center;
+}
+
+/* more_section end */
+
+
+/* information section start */
+.info p{
+    /* text-align: center; */
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+/* footer_section */
+
+
+footer p{
+    
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ .footer_p_1{
+    
+    padding-top: 30px;
+}
+
+
+footer h3{
+    padding-left: 20px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: lighter;
+   
+}
+.box_footer{
+    width: 30%;
+    margin-left: 20px;
+    
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30px 20px;
+   
+}
+.list .company{
+    padding-bottom: 30px;
+}
+
+.list .product{
+    padding-bottom: 30px;
+}
+.list .global{
+    padding-bottom: 30px;
+}
+.icon_location{
+    display: flex;
+    flex-direction: column;
+}
+
+.social_icon{
+    margin-left: 20px;
+}
+.icon_location .txt span{
+    padding-top: 20px;
+    
+}
+
+}

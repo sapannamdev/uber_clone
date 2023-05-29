@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber_clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Open+Sans:wght@300&family=Poppins&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar_start -->
+    <nav>
+        <span class="title">
+            <h4>Uber</h4>
+            <button id="company">Company <i class="fa-solid fa-chevron-down"></i></button>
+            <button id="safety">Safety</button>
+            <button id="help">Help</button>
+        </span>
+
+        <span class="login">
+            <div class="langauge_btn">
+                
+                <button> <i class="fa-solid fa-earth-asia"></i> EN</button>
+            </div>
+
+            <div class="product_btn">
+                   
+
+                <button>  <i class="fa-solid fa-table-cells"></i> Products</button>
+            </div>
+
+            <div class="login_btn">
+                <button>Login</button>
+            </div>
+            <div class="signup_btn">
+                <button>Sign up</button>
+            </div>
+
+            <div class="responsive_icon">
+                 <i class="fa-solid fa-bars"></i>
+            </div>
+        </span>
+    
+    </nav>
+    <!-- navbar end -->
+
+
+    <!-- hero_section start -->
+
+    <div class="hero_section">
+        <div class="txt_section">
+            <h2>Uber Taxi</h2>
+            <h4>Local taxis at the tap of a button</h4>
+            <p>No need to try to hail a taxi from the curb. Request a ride from your phone with Uber Taxi.</p>
+            <ul>
+                <li>Licensed, local taxi drivers</li>
+                <li>Pay with cash or card</li>
+                <li>Track your ride</li>
+            </ul>
+            <button>Sign up to ride</button>
+
+        </div>
+        <div class="img_section">
+            <img src="./images/Taxi.webp" alt="">
+        </div>
+
+    </div>
+
+        <!--hero_section end  -->
+
+
+        <!-- backgroung img section start -->
+
+        <div class="bg_section">
+
+            <div class="bg_image_section">
+                <img src="./images/Hailables-LP-Desktop-Hero-2.webp" alt="">
+            </div>
+            <div class="bg_text_section">
+                <h2>Your local taxis -> now on Uber</h2>
+                <p>Introducing Taxi, the newest way to get a ride with Uber. Now you have the option to request a taxi using your Uber app.</p>
+                <button>Request Taxi</button>
+
+            </div>
+          
+
+        </div>
+         <!-- backgroung img section end -->
+
+    <!--  How to ride section start-->
+
+    <div class="how_to_ride">
+
+        <h3>How to ride with Uber Taxi</h3>
+
+        <div class="box">
+            <div class="request_box">
+                <h5>1. Request</h5>
+                <p>Open the app and enter your destination in the "Where to?" box. Once you confirm your pickup and destination addresses are correct, select Uber Taxi at the bottom of your screen. Then tap Confirm Uber Taxi.</p>
+                <p>Once you’ve been matched, you’ll see your driver’s picture and vehicle details and can track their arrival on the map.</p>
+            </div>
+
+            <div class="ride_box">
+                <h5>2. Ride</h5>
+                <p>Hop in when your driver arrives. Your driver has your destination and directions on the fastest route to get there, but you can always request a specific route.</p>
+                <p>You can also share your whereabouts and trip status with friends and family, all right from the app.</p>
+                <p>If you are riding with friends, you can also split the fares through the app. It’s easy and stress-free.</p>
+            </div>
+
+            <div class="hop_out_box">
+                <h5> 3. Hop out</h5>
+                <p>You'll be automatically charged through your payment method on file, so you can exit your Uber Taxi as soon as you arrive.</p>
+                <p>Remember to rate your driver at the end of the ride.</p>
+            </div>
+        </div>
+    </div>
+     <!--  How to ride section end-->
+
+     <!-- how texi work section start -->
+            <div class="texi_work">
+                <h3>How Taxi works</h3>
+
+                <ul>
+                    <li>
+                        <h5>1. Request</h5>
+                        <p>Open the app and enter your destination in the “Where to?” box. Once you confirm that your pickup and destination addresses are correct, select Taxi.</p>
+                        <p>After you’ve been matched with a driver, you’ll see their vehicle details and can track their arrival on the map.</p>
+                    </li>
+
+                    <li>
+                        <h5>2. Ride</h5>
+                        <p>Check that the vehicle details match what you see in the app before getting in the vehicle.</p>
+                        <p>Your driver has your destination and directions for the fastest way to get there, but you can always request a specific route.</p>
+                    </li>
+
+                    <li >
+                        <h5>3. Hop out</h5>
+                        <p>You’ll be automatically charged through your payment method on file, so you can exit the vehicle as soon as you arrive.</p>
+                        <p class="bottom">Remember to rate your driver to help keep Uber safe and enjoyable for everyone. You can also consider tipping your driver.</p>
+                    </li>
+                </ul>
+            </div>
+     
+     <!-- how texi work section end -->
+
+     <!-- price_estimator section start-->
+     <div class="price_section">
+
+        <div class="booking_section">
+            <h2>Uber price estimator</h2>
+            <input type="text" placeholder=" Enter Pickup Location">
+            <input type="text" placeholder="Enter destination">
+            <div class="booking_btn">
+                <div class="dark_btn">
+                    <button>Request now</button>
+                </div>
+                <div class="light_btn">
+                    <button>Schedule for later</button>
+                </div>
+            </div>
+            <p>Sample rider prices are estimates only and do not reflect variations due to discounts, geography, traffic delays, or other factors. Flat rates and minimum fees may apply. Actual prices for rides and scheduled rides may vary.</p>
+
+        </div>
+
+        <div class="map_section">
+
+        </div>
+
+     </div>
+     <!-- price estimator section end -->
+
+     <!-- Why_texi section start -->
+
+      <div class="why_texi">
+        <h3>Why ride with Taxi</h3>
+         <div class="box_texi">
+            <div class="box_choice">
+                <img src="./images/Hailables-LP-Desktop-rtb-1.webp" alt="">
+                <h5>Choice</h5>
+                <p>Get the ride that’s right for you in just a few taps.</p>
+                
+            </div>
+            <div class="box_convenience">
+             <img src="./images/Hailables-LP-Desktop-rtb-5.webp" alt="">
+             <h5>Convenience</h5>
+             <p>Request a taxi in minutes—whenever and wherever.</p>
+            </div>
+             <div class="box_price">
+                <img src="./images/Hailables-LP-Desktop-rtb-2.webp" alt="">
+                <h5>Upfront price</h5>
+                <p>Pay the same price at the end of your ride that you saw up front.*</p>
+    
+             </div>
+             <div class="box_professionalism">
+                <img src="./images/Hailables-LP-Desktop-rtb-73x.webp" alt="">
+                <h5>Professionalism</h5>
+                <p>Fully licensed taxi drivers are ready to take you where you want to go.</p>
+    
+             </div>
+    
+             <div class="box_safety">
+                <img src="./images/Hailables-LP-Desktop-rtb-4.webp" alt="">
+                <h5>Safety</h5>
+                <p>Uber always puts your safety as a top priority.</p>
+    
+             </div>
+         </div>
+
+      </div>
+
+
+     <!-- Why_texi section end -->
+
+     <!-- want_section start -->
+
+     <div class="want_section">
+        <h3>Want to ride with Uber Taxi?</h3>
+        <button>Sign up now</button>
+     </div>
+      <!-- want_section end -->
+
+      <!-- more_section start -->
+
+      <div class="more_section">
+        <h3>More from Uber</h3>
+        <p>Go in the ride you want.</p>
+        <div class="box_span">
+            <span>
+                <p>Featured</p>
+                <p>2 or 3 wheels</p>
+                <p>Extra room</p>
+            </span>
+    
+        </div>
+        
+        <div class="box_feature">
+            <div class="box_share">
+                <div class="share_img">
+                    <img src="./images/Pool.webp" alt="">
+                </div>
+                <div class="share_txt">
+                    <h5>UberX Share</h5>
+                    <h6>Share the ride with up to one co-rider at a time</h6>
+                    <p>Learn more about UberX Share</p>
+                </div>
+            </div>
+
+            <div class="box_green">
+                <div class="green_img">
+                    <img src="./images/uber_green.webp" alt="">
+                </div>
+                <div class="green_txt">
+                    <h5>Uber Green</h5>
+                    <h6>Sustainable rides in electric vehicles</h6>
+                    <p>Learn more about Uber Green</p>
+                </div> 
+            </div>
+
+            <div class="box_rent">
+                <div class="rent_img">
+                    <img src="./images/uber-rent.webp" alt="">
+                </div>
+                <div class="rent_txt">
+                    <h5>Uber Rent</h5>
+                    <h6>Pick a car. See the price. Get moving.</h6>
+                    <p>Learn more about Uber Rent</p>
+                </div> 
+                
+            </div>
+
+        </div>
+
+      </div>
+
+    <!-- more_section end -->
+
+    <!-- information start -->
+    <div class="info">
+        <p>The information provided on this web page is intended for informational purposes only and may not be applicable in your country, region, or city. It is subject to change and may be updated without notice.</p>
+    </div>
+
+     <!-- information end -->
+     
+    <!-- footer section start -->
+     <footer>
+       <p class="footer_p_1">*The upfront price you’re shown may change if you add stops, update your destination, make significant changes to the route or duration of the trip, or pass through a toll that was not factored into your upfront price. In addition, you may incur wait-time fees for the time you take to get to the car at the pickup or fees for time spent at an on-trip stop.</p>
+       <p >The material provided on this web page is intended for informational purposes only and may not be applicable in your country, region, or city. It is subject to change and may be updated without notice.</p>
+       <h3>Uber</h3>
+       <div class="box_footer">
+        <h5>Visit Help Center</h5>
+
+       </div>
+       
+       <div class="list" >
+         <div class="company">
+            <ul>Company</ul>
+            <li>About us</li>
+            <li>Our offerings</li>
+            <li>Newsroom</li>
+            <li>Investors</li>
+            <li>Blog</li>
+            <li>Careers</li>
+            <li>AI</li>
+            <li>Gift cards</li>
+         </div>
+       <div class="product">
+        <ul>Products</ul>
+        <li>Ride</li>
+        <li>Drive</li>
+        <li>Deliver</li>
+        <li>Eat</li>
+        <li>Uber for Business</li>
+        <li>Uber freight</li>
+       </div>
+        
+       <div class="global">
+        <ul>Global citizenship</ul>
+        <li>Safety</li>
+        <li>Diversity</li>
+        <li>Sustainability</li>
+       </div>
+        
+       <div class="travel">
+        <ul>Travel</ul>
+        <li>Airports</li>
+        <li>Cities</li>
+       </div>
+        
+       </div>
+
+       <div class="icon_location">
+
+        <div class="social_icon">
+            <span>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </span>
+
+        </div>
+        <div class="txt">
+            <span>
+                <p>English</p>
+                <p><i class="fa-solid fa-location-dot"></i> India</p>
+            </span>
+            
+        </div>
+
+       </div>
+
+
+     </footer>
+     <!-- footer section start -->
+     
+
+
+
+
+    
+</body>
+</html>
